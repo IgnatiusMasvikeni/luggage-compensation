@@ -1,0 +1,95 @@
+{
+  "projectName": "LuggageCompensation - Consumer Claims Platform",
+  "projectId": "luggage-compensation-v1",
+  "description": "AI-powered consumer platform to help travelers maximize luggage loss/damage compensation claims",
+  "version": "0.1.0",
+  "status": "pre-launch",
+  "owner": "Ignatius",
+  "startDate": "2026-02-26",
+  "targetLaunchDate": "2026-06-30",
+  "focusArea": "Claims Automation & Passenger Advocacy",
+  "repository": {
+    "type": "git",
+    "local": "./",
+    "remote": "https://github.com/IgnatiusMasvikeni/luggage-compensation"
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Validation & Discovery",
+      "duration": "Weeks 1-4",
+      "status": "active",
+      "keyMilestones": [
+        "Talk to 10 frequent travelers about pain points",
+        "Talk to 3 travel insurance claims managers",
+        "Document competitor landscape",
+        "Validate willingness to pay"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "MVP Development",
+      "duration": "Weeks 5-12",
+      "status": "pending",
+      "keyMilestones": [
+        "Build claims intake web form",
+        "Develop AI claims letter generator",
+        "Create compensation calculator",
+        "Build user dashboard"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Soft Launch & Iteration",
+      "duration": "Weeks 13-20",
+      "status": "pending",
+      "keyMilestones": [
+        "Launch to 50 beta users",
+        "Achieve $500/month revenue or 100 waitlist signups",
+        "Iterate based on feedback",
+        "Plan insurance partnership"
+      ]
+    }
+  ],
+  "team": {
+    "founder": "Ignatius",
+    "role": "Product Lead + Technical Lead",
+    "responsibilities": [
+      "Customer validation",
+      "Product vision",
+      "Technical architecture",
+      "Initial development"
+    ]
+  },
+  "tools": {
+    "communication": ["Slack", "Email"],
+    "documentation": ["Google Docs", "Notion"],
+    "development": ["VS Code", "GitHub"],
+    "design": ["Figma"],
+    "analytics": ["Mixpanel", "Google Analytics"]
+  },
+  "criticalTasks": [
+    "Customer interviews (in progress)",
+    "Competitive analysis",
+    "UI/UX wireframes",
+    "MVP feature set definition",
+    "Tech stack selection"
+  ],
+  "blockers": [
+    "Need to finalize MVP scope",
+    "Need customer validation for willingness to pay",
+    "Need to select initial tech stack"
+  ],
+  "successMetrics": {
+    "phase1": "10+ customer conversations completed, validated problem",
+    "phase2": "MVP deployed, 50+ beta users signed up",
+    "phase3": "$500 MRR or clear path to PMF"
+  },
+  "resources": {
+    "documentation": "./docs/",
+    "specifications": "./docs/PROJECT_SPECIFICATION.md",
+    "architecture": "./docs/TECHNICAL_ARCHITECTURE.md",
+    "roadmap": "./docs/DEVELOPMENT_ROADMAP.md",
+    "tasks": "./tasks/"
+  }
+}
